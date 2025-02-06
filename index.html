@@ -1,1 +1,71 @@
-Hello World
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-визитка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border: 2px solid #007bff;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto 15px;
+            display: block;
+            border: 4px solid #007bff;
+        }
+        .name {
+            font-size: 26px;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .description {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="avatar.jpg" alt="Аватар" class="avatar">
+        <div class="name">Ваше Имя</div>
+        <div class="description">Краткое описание или должность</div>
+        <a href="#" class="btn">WhatsApp</a>
+        <a href="#" class="btn">Instagram</a>
+        <a href="#" class="btn">Telegram</a>
+        <a href="#" class="btn">Сайт</a>
+    </div>
+</body>
+</html>
