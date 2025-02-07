@@ -9,11 +9,11 @@ body {
 }
 
 .header {
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
 .header__avatar {
-  border-radius: 25%;
+  border-radius: 50%;
 }
 
 .header__title {
